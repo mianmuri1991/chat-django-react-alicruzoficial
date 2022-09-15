@@ -1,0 +1,110 @@
+.pantalla{
+  display: flex;
+  margin: auto;
+  width: 436px;
+  height: 577px;
+  background: rgba(143, 194, 253, 0.15);
+  border-radius: 12px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.enviar{
+  display: flex;
+  margin: auto;
+  width: 371px;
+  height: 67px;
+  background: #D3BDBD;
+  border-radius: 9px;
+  align-items: center;
+  justify-content: center;
+}
+.botonEnviar{
+  width: 67px;
+  height: 28px;
+  background: #F2FBFB;
+  border-radius: 6px;
+  border: solid 0px;
+  margin-left: 2%;
+}
+.chat{
+  width: 248px;
+  height: 29px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: solid 0px;
+}
+#elCuerpo{
+  width: 375px;
+  height: 423px;
+  background: #F0EBEB;
+  border-radius: 8px;
+  margin-top: 9%;
+  padding-top: 12px;
+}
+
+.cajitachat{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 348px;
+  height: 51px;
+}
+
+.textoCajita{
+  width: 200px;
+  background: #7CDC6C;
+  border-radius: 10px 10px 0px 10px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  width: 50px;
+  height: 50px;
+  background: #7CDC6C;
+  border-radius: 50%;
+  font-family: fantasy;
+  color: #4a4a4a;
+}
+.cajitachatAzul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 348px;
+  height: 51px;
+}
+
+.textoCajitaAzul{
+  width: 200px;
+  background: #7C99FF;
+  border-radius: 10px 10px 10px 0px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  margin-left: 2%;
+}
+
+.avatarAzul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  width: 50px;
+  height: 50px;
+  background: #7C99FF;
+  border-radius: 50%;
+  font-family: fantasy;
+  color: #4a4a4a;
+}
